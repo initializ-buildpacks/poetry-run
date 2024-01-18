@@ -1,4 +1,4 @@
-module github.com/paketo-buildpacks/poetry-run
+module github.com/initializ-buildpacks/poetry-run
 
 go 1.18
 

@@ -6,7 +6,7 @@ import (
 	"github.com/paketo-buildpacks/libreload-packit/watchexec"
 	"github.com/paketo-buildpacks/packit/v2"
 	"github.com/paketo-buildpacks/packit/v2/scribe"
-	poetryrun "github.com/paketo-buildpacks/poetry-run"
+	poetryrun "github.com/initializ-buildpacks/poetry-run"
 )
 
 func main() {

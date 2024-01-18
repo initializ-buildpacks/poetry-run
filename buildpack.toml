@@ -1,8 +1,8 @@
 api = "0.8"
 
 [buildpack]
-  id = "paketo-buildpacks/poetry-run"
-  name = "Paketo Buildpack for Poetry Run"
+  id = "initializ-buildpacks/poetry-run"
+  name = "Initializ Buildpack for Poetry Run"
 
 [metadata]
   include-files = ["bin/run", "bin/build", "bin/detect", "buildpack.toml"]

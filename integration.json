@@ -3,10 +3,10 @@
     "index.docker.io/paketobuildpacks/builder:buildpackless-base",
     "index.docker.io/paketobuildpacks/builder-jammy-buildpackless-base:latest"
   ],
-  "cpython":"github.com/paketo-buildpacks/cpython",
-  "pip":"github.com/paketo-buildpacks/pip",
-  "poetry":"github.com/paketo-buildpacks/poetry",
-  "poetry-install":"github.com/paketo-buildpacks/poetry-install",
+  "cpython":"github.com/initializ-buildpacks/cpython",
+  "pip":"github.com/initializ-buildpacks/pip",
+  "poetry":"github.com/initializ-buildpacks/poetry",
+  "poetry-install":"github.com/initializ-buildpacks/poetry-install",
   "build-plan":"github.com/paketo-community/build-plan",
   "watchexec":"github.com/paketo-buildpacks/watchexec"
 }

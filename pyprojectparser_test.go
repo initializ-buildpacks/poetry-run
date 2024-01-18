@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	poetryrun "github.com/paketo-buildpacks/poetry-run"
+	poetryrun "github.com/initializ-buildpacks/poetry-run"
 	"github.com/sclevine/spec"
 
 	. "github.com/onsi/gomega"
