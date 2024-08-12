@@ -52,11 +52,9 @@ jobs:
         go-version: 'stable'
     - name: Checkout
       uses: actions/checkout@v3
-    - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/* || true
     - name: Run Integration Tests
-      run: ./scripts/integration.sh --use-token --builder ${{ matrix.builder }}
+      run: ./scripts/integration.sh --builder ${{ matrix.builder }} --token ${{ github.token }}
       env:
-        GIT_TOKEN: ${{ github.token }}
         TMPDIR: "${{ runner.temp }}"
 
   release:
@@ -70,7 +68,8 @@ jobs:
         go-version: 'stable'
     - name: Checkout
       uses: actions/checkout@v3
-    - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/* || true
+      with:
+        fetch-tags: true
     - name: Reset Draft Release
       id: reset
       uses: initializ-buildpacks/github-config/actions/release/reset-draft@main
