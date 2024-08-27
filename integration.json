@@ -1,6 +1,6 @@
 {
   "builders": [
-    "index.docker.io/paketobuildpacks/builder-jammy-full:latest"
+    "initializbuildpacks/securepacks-initzbuilder:latest"
   ],
   "cpython":"github.com/paketo-buildpacks/cpython",
   "pip":"github.com/paketo-buildpacks/pip",
