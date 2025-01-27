@@ -1,6 +1,6 @@
 module github.com/initializ-buildpacks/poetry-run
 
-go 1.23.4
+go 1.23.5
 
 require (
 	github.com/BurntSushi/toml v1.3.2
